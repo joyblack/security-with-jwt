@@ -1,0 +1,17 @@
+############# jwt
+jwt:
+  issuer: joy-black
+  expirationTime: 3600
+  subject: joy-black-token
+  base64Key: joy-black-security-key
+  headerParameter: Authentication-GM
+
+
+############# spring
+spring:
+  application:
+    name: security-with-jwt
+
+############# server
+server:
+  port: 8090
